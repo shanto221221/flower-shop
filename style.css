@@ -104,21 +104,21 @@
 .fCard1 {
     background-color: #a7216252;
     height: 370px;
-    padding: 0 58px 0px 58px;
+    padding: 0 97px 0px 97px;
     border-radius: 45% 45% 0px 0px;
 }
 
 .fCard2 {
     background-color: #0597a04f;
     height: 370px;
-    padding: 0 58px 0px 58px;
+    padding: 0 97px 0px 97px;
     border-radius: 45% 45% 0px 0px;
 }
 
 .fCard3 {
     background-color: #80808054;
     height: 370px;
-    padding: 0 58px 0px 58px;
+    padding: 0 97px 0px 97px;
     border-radius: 45% 45% 0px 0px;
 }
 
@@ -286,9 +286,50 @@
 /* instagram section end here */
 
 
+/* visit section start here */
+.visitSection {
+    margin-top: 80px;
+    display: flex;
+    background-color: #e5547326;
+}
+
+.visitImage img {
+    width: 650px;
+    height: 100%;
+    border-radius: 0 30% 0 0;
+}
+
+.visitText {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 200px;
+}
+
+.visitText h1 {
+    font-size: 45px;
+    padding: 20px 0;
+}
+
+.visitContact {
+    display: flex;
+}
+
+.leftCont {
+    margin-right: 45px;
+}
+
+.leftCont p {
+    padding: 3px;
+}
+
+.rightCont p {
+    padding: 3px;
+}
+
+/* visit section end here */
+
 /* footer section start here */
 .footer {
-    margin-top: 80px;
     height: 300px;
     background-color: #222;
 }
