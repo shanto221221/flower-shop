@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* header section start here */
+
+.header {
+    height: 600px;
+    background-color: #e5547326;
+    display: flex;
+    align-items: center;
+    padding: 0px 110px;
+}
+
+.leftHeader {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftHeader .leftContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftHeader .leftContent h1 {
+    font-size: 69px;
+    line-height: 1;
+}
+
+.leftHeader .leftContent p {
+    padding: 14px 0;
+    font-size: 16px;
+    text-align: justify
+}
+
+.leftHeader .leftContent button {
+    width: 101px;
+    padding: 8px 0;
+    background: #E55473;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.rigthtHeader {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rigthtHeader img {
+    width: 400px;
+    height: auto;
+    padding-top: 93px;
+}
+
+/* header section end here */
+
+
+/* Our Featured Flowers start here  */
+.featuredFlower {
+    padding: 0px 110px;
+}
+
+.featureText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.featureText p {
+    font-size: 14px;
+    color: #444;
+    padding: 3px 0px;
+    text-align: center;
+}
+
+.featureCard {
+    display: flex;
+    padding-top: 40px;
+}
+
+.fCard {
+    padding: 20px;
+}
+
+.fCard p {
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.fCard1 {
+    background-color: #a7216252;
+    height: 370px;
+    padding: 0 58px 0px 58px;
+    border-radius: 45% 45% 0px 0px;
+}
+
+.fCard2 {
+    background-color: #0597a04f;
+    height: 370px;
+    padding: 0 58px 0px 58px;
+    border-radius: 45% 45% 0px 0px;
+}
+
+.fCard3 {
+    background-color: #80808054;
+    height: 370px;
+    padding: 0 58px 0px 58px;
+    border-radius: 45% 45% 0px 0px;
+}
+
+.fCard1 img {
+    width: 220px;
+    height: auto;
+    padding-top: 65px;
+}
+
+.fCard2 img {
+    width: 220px;
+    height: auto;
+    padding-top: 95px;
+}
+
+.fCard3 img {
+    width: 190px;
+    height: auto;
+    padding-top: 85px;
+}
+
+.featureGroup {
+    margin-top: 40px;
+    background-color: #8080800f;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 30px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.featureGroup img {
+    width: 70px;
+    height: auto;
+}
+
+.featureGroup p {
+    font-size: 14px;
+}
+
+/* Our Featured Flowers end here  */
+
+
+/* discount section start here */
+.discountSetion {
+    margin-top: 70px;
+    background-color: #e5547326;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 184px;
+}
+
+.discountText {
+    width: 60%;
+    text-align: center;
+}
+
+.discountText h1 {
+    font-size: 30px;
+    padding: 4px;
+}
+
+.discountText p {
+    font-size: 15px;
+    padding: 4px;
+    color: #878787;
+}
+
+.discountText button {
+    margin-top: 10px;
+    width: 101px;
+    padding: 8px 0;
+    background: #E55473;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.discountImage img {
+    width: 200px;
+}
+
+/* discount section end here */
+
+
+/* instagram section start here */
+.instagramSection {
+    padding: 0 110px;
+}
+
+.instagramText {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.instagramText p {
+    color: #878787;
+    margin-top: 10px;
+}
+
+.instragramCard {
+    display: flex;
+}
+
+.instraCard {
+    margin: 30px 8px 0 8px;
+}
+
+.instraCard img {
+    width: 100%;
+}
+
+.instraCard2 {
+    margin-top: 80px;
+    background-image: url("./images/Rectangle\ 9.png");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.instraCard2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instraCard2Text {
+    text-align: center;
+}
+
+.instraCard2Text p {
+    color: #878787;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.instraCard2Text input {
+    width: 400px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-right: 5px;
+    outline: none;
+}
+
+.instraCard2Text button {
+    margin-top: 10px;
+    width: 90px;
+    padding: 10px;
+    background: #E55473;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* instagram section end here */
+
+
+/* footer section start here */
+.footer {
+    margin-top: 80px;
+    height: 300px;
+    background-color: #222;
+}
+
+.footerText {
+    text-align: center;
+    color: #fff;
+    padding: 90px 0px;
+}
+
+.footerText p {
+    font-size: 14px;
+    color: #ccc;
+    padding: 7px 0px;
+}
+
+/* footer section end here */
